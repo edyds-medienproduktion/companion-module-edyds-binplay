@@ -1,0 +1,26 @@
+{
+  "$schema": "../node_modules/@companion-module/base/assets/manifest.schema.json",
+  "id": "edyds-binplay",
+  "name": "edyds-binplay",
+  "shortname": "B_inPlay",
+  "description": "Steuerung für den Video-Cue-Player B_inPlay (edyds medienproduktion): 3 Player, Cues, Gruppen, Blackout, NDI.",
+  "version": "0.0.0",
+  "license": "MIT",
+  "repository": "git+https://github.com/edyds-medienproduktion/companion-module-edyds-binplay.git",
+  "bugs": "https://github.com/edyds-medienproduktion/companion-module-edyds-binplay/issues",
+  "maintainers": [
+    {
+      "name": "edyds medienproduktion"
+    }
+  ],
+  "legacyIds": [],
+  "runtime": {
+    "type": "node22",
+    "api": "nodejs-ipc",
+    "apiVersion": "0.0.0",
+    "entrypoint": "../main.js"
+  },
+  "manufacturer": "edyds",
+  "products": ["B_inPlay"],
+  "keywords": ["video", "cue", "player", "playback", "ndi"]
+}
